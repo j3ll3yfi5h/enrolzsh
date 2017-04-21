@@ -49,7 +49,7 @@ _enrol_autoload >& /dev/null # don't return anything
 # Load shortcode of every dir and add custom config
 # Lazyload projects and don't add alias because of better overview
 enrol.projects() {
-	projects=(~/Projects/public/*/) # Hardcoded - variable doesn't work yet
+	projects=(/mnt/c/Users/YOUR\ USER/Projects/public/*/) # Hardcoded - variable doesn't work yet
 	#projects=($ER_PROJECT_DIR/*/)
 	echo "The following aliases are created (enrol.PROJECT):"
 	for project in "${projects[@]}"; do
