@@ -2,8 +2,8 @@
 # ########################
 
 # Project directories
-ER_PROJECT_DIR="~/Projects/public"
-ER_VM_DIR="~/Projects"
+ER_PROJECT_DIR="/mnt/c/Users/YOUR\ USER/Projects/public"
+ER_VM_DIR="/mnt/c/Users/YOUR\ USER/Projects"
 
 # ENROL_AUTOLOAD projects
 ER_AUTOLOAD=(ju test)
