@@ -13,8 +13,7 @@ enrol.config.global() {
 	eval nano ~/.oh-my-zsh/plugins/enrolzsh/.enrolzsh_global
 }
 
-# Open finder at global config file
-enrol.config.finder() {
-	eval cd ~/.oh-my-zsh/plugins/enrolzsh
-	open .
+# Open explorer at global config file
+enrol.config.explorer() {
+	eval cmd.exe /C "explorer \"C:\Users\WINDOWS USER\AppData\Local\lxss\home\BASHUSER\.oh-my-zsh\plugins\enrolzsh\""
 }
